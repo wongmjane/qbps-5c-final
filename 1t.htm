@@ -1,0 +1,212 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁2</title>
+<base target="footnotes">
+<!--mstheme--><link rel="stylesheet" href="neon1111-105.css">
+<meta name="Microsoft Theme" content="neontv 1111">
+<bgsound src="WELCOME0.WAV" loop="-1">
+</head>
+
+<body bgproperties="fixed">
+
+<p align="center"><font size="7">政府與我</font></p>
+<p align="center">　</p>
+<p align="center">　</p>
+<p align="center">　</p>
+<p align="center"><font size="5">當香港政府沒有能力管理社會治安，香港會怎樣？</font></p>
+<p align="center"><!--webbot bot="HTMLMarkup" startspan -->          <!-------異度JavaScript空間開始-------->
+ <body  onLoad="MM_timelinePlay('Timeline1');javascript:pageonload()">
+            <script language="JavaScript">
+      <!--
+      function MM_timelinePlay(tmLnName, myID) { //v1.2
+        //Copyright 1997 Macromedia, Inc. All rights reserved.
+        var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+        if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+        tmLn = document.MM_Time[tmLnName];
+        if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+        if (myID == tmLn.ID) { //if Im newest
+          setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+          fNew = ++tmLn.curFrame;
+          for (i=0; i<tmLn.length; i++) {
+            sprite = tmLn[i];
+            if (sprite.charAt(0) == 's') {
+              if (sprite.obj) {
+                numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+                if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+                  keyFrm=1;
+                  for (j=0; j<sprite.values.length; j++) {
+                    props = sprite.values[j]; 
+                    if (numKeyFr != props.length) {
+                      if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                      else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+                    } else {
+                      while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                      if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                        if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                        else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+              } } } } }
+            } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+            if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+        } }
+      }
+
+      function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+        //Copyright 1997 Macromedia, Inc. All rights reserved.
+        var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+        if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+        tmLn = document.MM_Time[tmLnName];
+        if (numGotos != null)
+          if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+          else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+        jmpFwd = (fNew > tmLn.curFrame);
+        for (i = 0; i < tmLn.length; i++) {
+          sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+          if (sprite.charAt(0) == "s") {
+            numKeyFr = sprite.keyFrames.length;
+            firstKeyFr = sprite.keyFrames[0];
+            lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+            if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+            for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j];
+              if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+              else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+              if (sprite.obj != null) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+                else        sprite.obj[props.prop2][props.prop] = props[propNum];
+            } }
+          } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+        }
+        tmLn.curFrame = fNew;
+        if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+      }
+
+      function MM_initTimelines() {
+          //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+          var ns = navigator.appName == "Netscape";
+          document.MM_Time = new Array(1);
+          document.MM_Time[0] = new Array(2);
+          document.MM_Time["Timeline1"] = document.MM_Time[0];
+          document.MM_Time[0].MM_Name = "Timeline1";
+          document.MM_Time[0].fps = 15;
+          document.MM_Time[0][0] = new String("sprite");
+          document.MM_Time[0][0].slot = 1;
+          if (ns)
+              document.MM_Time[0][0].obj = document["Layer1"];
+          else
+          document.MM_Time[0][0].obj = document.all ? document.all["Layer1"] : null;
+          document.MM_Time[0][0].keyFrames = new Array(1, 30, 60);
+          document.MM_Time[0][0].values = new Array(2);
+          document.MM_Time[0][0].values[0] = new Array(13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23,24,24,25,25,26,26,27,27,28,28,27,26,26,26,25,25,24,23,23,23,22,22,21,21,20,20,19,19,18,18,17,17,16,16,15,15,14,13,13);
+          document.MM_Time[0][0].values[0].prop = "left";
+          document.MM_Time[0][0].values[1] = new Array(31,33,35,38,40,42,44,47,49,51,53,56,58,60,62,65,67,69,71,74,76,78,80,83,85,87,89,92,94,96,94,92,89,87,85,83,81,79,77,74,72,70,68,66,64,61,59,57,55,53,51,48,46,44,42,40,38,35,33,31);
+          document.MM_Time[0][0].values[1].prop = "top";
+          if (!ns) {
+         document.MM_Time[0][0].values[0].prop2 = "style";
+         document.MM_Time[0][0].values[1].prop2 = "style";
+        }
+        document.MM_Time[0][1] = new String("behavior");
+        document.MM_Time[0][1].frame = 61;
+        document.MM_Time[0][1].value = "MM_timelineGoto('Timeline1','1')";
+        document.MM_Time[0].lastFrame = 61;
+        for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+          }
+      }
+      //-->
+      </script>
+
+      <style>
+      .spanstyle {color: #ffffff; font-family: Tahoma; font-size: 9pt; font-weight: normal; position: absolute; top: -50px; visibility: visible}
+      </style>
+      <script language=javascript>
+      var message="歡 迎 光 臨 專 題 研 習！      第五組";
+      var x,y;
+      var step=12;
+      var flag=0;
+
+      message=message.split("");
+      var xpos=new Array();
+      for (i=0;i<=message.length-1;i++) {
+      xpos[i]=-50;
+      }
+
+      var ypos=new Array();
+      for (i=0;i<=message.length-1;i++) {
+      ypos[i]=-50;
+      }
+
+      function handlerMM(e) {
+      x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX+20;
+      y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY;
+      flag=1;
+      }
+
+      function makesnake() {
+      if (flag==1 && document.all) {
+      for (i=message.length-1; i>=1; i--) {
+      xpos[i]=xpos[i-1]+step;
+      ypos[i]=ypos[i-1];
+     }
+      xpos[0]=x+step;
+      ypos[0]=y;
+
+      for (i=0; i<=message.length-1; i++) {
+      var thisspan = eval("span"+(i)+".style");
+      thisspan.posLeft=xpos[i];
+      thisspan.posTop=ypos[i];
+      thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255;
+      }
+      }
+      else if (flag==1 && document.layers) {
+      for (i=message.length-1; i>=1; i--) {
+      xpos[i]=xpos[i-1]+step;
+      ypos[i]=ypos[i-1];
+      }
+      xpos[0]=x+step;
+      ypos[0]=y;
+
+      for (i=0; i<message.length-1; i++) {
+      var thisspan = eval("document.span"+i);
+      thisspan.left=xpos[i];
+      thisspan.top=ypos[i];
+      thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255;
+      }
+      }
+      }
+      </script>
+      <script language=javascript>
+      for (i=0;i<=message.length-1;i++) {
+      document.write("<span id='span"+i+"' class='spanstyle'>");
+      document.write(message[i]);
+      document.write("</span>");
+      }
+
+      if (document.layers) {
+      document.captureEvents(Event.MOUSEMOVE);
+      }
+      document.onmousemove = handlerMM;
+      </script>
+      <script language=javascript>
+      function pageonload() {
+      makesnake();
+      window.setTimeout("pageonload();", 2);
+      }
+      </script>
+
+         <!-------異度JavaScript空間結束-------->
+<!--webbot bot="HTMLMarkup" endspan i-checksum="48808" --></p>
+
+<p align="center"><!--webbot bot="HTMLMarkup" startspan --><SCRIPT Language="JavaScript"> 
+function open () {return true;}
+</SCRIPT><!--webbot bot="HTMLMarkup" endspan i-checksum="50305" --></p>
+
+</body>
+
+</html>
